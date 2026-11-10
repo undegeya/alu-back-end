@@ -1,10 +1,9 @@
-
 #!/usr/bin/python3
 """Gather data from an API and display an employee's TODO progress."""
 
+import json
 import sys
 import urllib.request
-import json
 
 
 def main():
@@ -42,4 +41,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

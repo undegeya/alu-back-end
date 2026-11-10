@@ -1,4 +1,3 @@
-
 # API Project
 
 This project uses the JSONPlaceholder REST API to retrieve
@@ -8,6 +7,7 @@ employee information and TODO tasks.
 
 - Python 3
 - urllib
+- json
 - JSONPlaceholder API
 
 ## Tasks
@@ -38,18 +38,13 @@ Usage:
 
 ### 3. Dictionary of list of dictionaries
 
-Exports TODO tasks for all employees into one JSON file.
+Exports all employees' TODO tasks into a JSON file.
 
 Usage:
 
     python3 api/3-dictionary_of_list_of_dictionaries.py
-
 ## API
 
 - https://jsonplaceholder.typicode.com/users
 - https://jsonplaceholder.typicode.com/todos
-
-## Author
-
-ALU Back-End Student
 
